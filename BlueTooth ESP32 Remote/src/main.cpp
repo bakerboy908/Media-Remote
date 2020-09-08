@@ -5,10 +5,10 @@
 //Global stuff
 BleKeyboard keyboard("Bike Media Remote", "Gondwana", 100);
 
-#define PLAY_PAUSE_BUTTON 35
-#define NEXT_TRACK_BUTTON 19
-#define LAST_TRACK_BUTTON 18
-#define VOLUME_UP_BUTTON 33
+#define PLAY_PAUSE_BUTTON 35 // RTC_GPIO5
+#define NEXT_TRACK_BUTTON 26 //RTC_GPIO7
+#define LAST_TRACK_BUTTON 34 //RTC_GPIO4
+#define VOLUME_UP_BUTTON 33  //RTC_GPIO8
 
 #define DEBOUNCE_DELAY 200 //milliseconds
 
